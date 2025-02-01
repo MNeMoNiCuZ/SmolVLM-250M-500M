@@ -1,5 +1,5 @@
-# SmolVLM-500M-Instruct - Batch
-This tool utilizes the [SmolVLM-500M-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM-500M-Instruct) model to automatically caption multiple image files in an input-folder, for ease of process.
+# SmolVLM-256M / 500M-Instruct - Batch
+This tool utilizes the [SmolVLM-256M-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct) [SmolVLM-500M-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM-500M-Instruct) models to automatically caption multiple image files in an input-folder, for ease of process.
 
 Place all images you wish to caption in the `/input/` directory and run `py batch.py`.
 
