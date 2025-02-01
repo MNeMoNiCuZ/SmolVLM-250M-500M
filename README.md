@@ -1,7 +1,7 @@
 # SmolVLM-500M-Instruct - Batch
 This tool utilizes the SmolVLM-500M-Instruct model to automatically caption multiple image files in an input-folder, for ease of process.
 
-Place all images you wish to caption in the /input directory and run `py batch.py`.
+Place all images you wish to caption in the `/input/` directory and run `py batch.py`.
 
 # Setup
 1. Git clone this repository `git clone https://github.com/MNeMoNiCuZ/SmolVLM-500M-Instruct`
