@@ -69,4 +69,6 @@ Input prompt:
 
 `describe`
 
-> A squirrel with large, outstretched, grey, feathered ears sits on a dirt ground in front of a tree trunk.
+```
+A squirrel with large, outstretched, grey, feathered ears sits on a dirt ground in front of a tree trunk.
+```
