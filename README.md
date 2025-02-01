@@ -1,5 +1,5 @@
 # SmolVLM-256M / 500M-Instruct - Batch
-This tool utilizes the [SmolVLM-256M-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct) [SmolVLM-500M-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM-500M-Instruct) models to automatically caption multiple image files in an input-folder, for ease of process.
+This tool utilizes the [SmolVLM-256M-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct) and the [SmolVLM-500M-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM-500M-Instruct) models to automatically caption multiple image files in an input-folder, for ease of process.
 
 Place all images you wish to caption in the `/input/` directory and run `py batch.py`.
 
@@ -15,10 +15,18 @@ You should now be set up and able to run the tool.
 - Tested on Python 3.10.
 - Tested on Pytorch w. CUDA 12.1.
 
+> 256M version
+- At batch size 1 it uses ~3gb VRAM
+- At batch size 10 it uses ~23.6gb VRAM
+
+> 500M version
 - At batch size 1 it uses ~4gb VRAM
 - At batch size 10 it uses ~23.6gb VRAM
 
 Captioning takes around 20 seconds per batch.
+
+# Choosing Model
+Edit the User Configuration section in the python file and change the `MODEL_SIZE` to 256M or 512M based on which model you wish to use.
 
 # Examples
 ![creature](https://github.com/user-attachments/assets/4d2f8b51-52d5-4036-9ea1-8cab21ae21eb)
